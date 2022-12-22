@@ -1,4 +1,5 @@
-![alt text](https://yandex.ru/images/search?from=tabbar&text=hangman&pos=0&img_url=http%3A%2F%2Fskyteach.ru%2Fwp-content%2Fuploads%2F2019%2F12%2FHangman.jpg&rpt=simage&lr=213)
+![Hangman](https://user-images.githubusercontent.com/69163582/209092220-04ba1647-c567-437f-985d-b67cc6f7938b.jpg)
+
 
 <p align="center">
    <img src="" alt="Unity Version">
