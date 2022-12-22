@@ -1,6 +1,4 @@
-<p align="center">
-      <img src="[https://ibb.co/447tPj1]" width="726">
-</p>
+![alt text](https://yandex.ru/images/search?from=tabbar&text=hangman&pos=0&img_url=http%3A%2F%2Fskyteach.ru%2Fwp-content%2Fuploads%2F2019%2F12%2FHangman.jpg&rpt=simage&lr=213)
 
 <p align="center">
    <img src="" alt="Unity Version">
