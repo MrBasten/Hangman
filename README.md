@@ -2,9 +2,9 @@
 
 
 <p align="center">
-   <img src="" alt="Unity Version">
-   <img src="" alt="Game Version">
-   <img src="" alt="License">
+   <img src="https://img.shields.io/badge/python-3.8.10-blue" alt="Python Version">
+   <img src="https://img.shields.io/badge/aiogram-2.23.1-green" alt="Aiogram Version">
+   <img src="" alt="">
 </p>
 
 ## About
