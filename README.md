@@ -4,12 +4,12 @@
 <p align="center">
    <img src="https://img.shields.io/badge/python-3.8.10-blue" alt="Python Version">
    <img src="https://img.shields.io/badge/aiogram-2.23.1-green" alt="Aiogram Version">
-   <img src="" alt="">
+   <img src="https://img.shields.io/badge/Levenshtein-0.20.9-orange" alt="Levenshtein Version">
 </p>
 
 ## About
 
-About Text Here
+
 
 ## Documentation
 
