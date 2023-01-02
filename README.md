@@ -22,6 +22,5 @@ Documentation Here
 
 ## Developers
 
-- [Delevoper Name](GitHub Profile Link)
-
-## License
+- [Стенин Константин](https://github.com/MrBasten)
+- [Чубуков Андрей](https://github.com/Mrak0bEss)
