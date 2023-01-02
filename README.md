@@ -8,6 +8,12 @@
 </p>
 
 ## О проекте
+
+## Разработчики
+
+- [Стенин Константин](https://github.com/MrBasten)
+- [Чубуков Андрей](https://github.com/Mrak0bEss)
+
 ## Зоны ответственности
 
 **Стенин К.А.**
@@ -16,8 +22,3 @@
 
 **Чубуков А.В.**
 - Разработка алгоритма  
-
-## Разработчики
-
-- [Stenin Konstantin](https://github.com/MrBasten)
-- [Chubukov Andrej](https://github.com/Mrak0bEss)
