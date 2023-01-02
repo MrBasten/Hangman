@@ -22,5 +22,5 @@ Documentation Here
 
 ## Developers
 
-- [Стенин Константин](https://github.com/MrBasten)
-- [Чубуков Андрей](https://github.com/Mrak0bEss)
+- [Stenin Konstantin](https://github.com/MrBasten)
+- [Chubukov Andrej](https://github.com/Mrak0bEss)
