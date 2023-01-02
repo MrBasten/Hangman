@@ -1,4 +1,4 @@
-# Проект по курсу "Объектно-ориентированное программирование"
+# Проект по курсу "ООП"
 ![Hangman](https://user-images.githubusercontent.com/69163582/209092220-04ba1647-c567-437f-985d-b67cc6f7938b.jpg)
 
 <p align="center">
