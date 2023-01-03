@@ -31,18 +31,23 @@
 
 После вывод слова алгоритмом его надо начать отгадывать, вводя по одной букве
 В случае успеха:
+
 ![Screenshot from 2023-01-03 17-57-04](https://user-images.githubusercontent.com/69163582/210391408-671ded86-2718-4f5d-b163-468edeb390c7.png)
 
 В случае неудачи:
+
 ![Screenshot from 2023-01-03 17-57-20](https://user-images.githubusercontent.com/69163582/210391481-2b9df9df-3c37-459c-8a3b-c41b1e88553d.png)
 
 Попыток ограниченное количество, если слово угадано до окончания счётчика:
+
 ![Screenshot from 2023-01-03 17-58-03](https://user-images.githubusercontent.com/69163582/210391826-df25d0b5-939e-4b11-845e-a8371d159948.png)
 
 Если же счётчик попыток закончился, то выводится следующее сообщение:
+
 ![image](https://user-images.githubusercontent.com/69163582/210397069-4a39799f-fa73-48f4-9b1a-262f56c99d33.png)
 
 2. Запуск игры для загадывания слова
+
 ![image](https://user-images.githubusercontent.com/69163582/210398715-21634381-1463-4cfb-bdd2-8b881b32a99a.png)
 
 
