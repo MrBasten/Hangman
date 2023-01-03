@@ -3,7 +3,7 @@ from guess import HangmanGuessingRus
 from aiogram.types import ReplyKeyboardRemove, \
     ReplyKeyboardMarkup, KeyboardButton, \
     InlineKeyboardMarkup, InlineKeyboardButton
-from aiogram.dispatcher.filters import Text
+from aiogram.dispatcher.filters import Text 
 from aiogram.utils import executor
 from aiogram.dispatcher import Dispatcher
 from aiogram.dispatcher import FSMContext
@@ -27,7 +27,7 @@ lines = {None}
 hide1={None}
 keyboard_RUS=' '
 
-
+#Состаяния для fsm в aiogram
 class MyState(StatesGroup):
     wait_for_inputs = State()
     success = State()
@@ -47,7 +47,7 @@ async def process_play(message: types.Message):
     global keyboard_RUS
     await message.reply("Напишите, Отгадать или Загадать.")
     await MyState.success.set()
-
+#Определение режима игры, загадывание или отгадывание
 @dp.message_handler(state=MyState.success)
 async def input_from_user(message: types.Message, state: FSMContext):
     if (message.text == "Отгадать"):
@@ -67,7 +67,8 @@ async def input_from_user(message: types.Message, state: FSMContext):
     else:
         await MyState.success.set()
 
-
+#если выбрано отгадывание то в работу идет этот алгоритм.
+#игрок подает возможные буквы, и в зависимости от их наличия, поражения или победы выводится результат
 @dp.message_handler(state=MyState.wait_for_inputs)
 async def input_from_user(message: types.Message, state: FSMContext):
     global word
@@ -95,7 +96,9 @@ async def input_from_user(message: types.Message, state: FSMContext):
         await message.answer("Красава!")
         await message.answer(f"{hide}")
 
-
+#режим загадывания
+#игрок вводит маску слова, алгоритм находит все ближайшие по Левенштейну слова и дает на проверку буквы
+#игрок одобряет их или же отклоняет
 @dp.message_handler(Text(equals="Загадать"))
 async def make_a_wish(message: types.Message):
     await message.answer("ВИСИЛИЦА")
@@ -125,7 +128,6 @@ async def pop(message: types.Message, state: FSMContext):
         answer = ' '
         hide1, lines = HangmanGuessingRus.Var(hide)
     else:
-        print('hui')
         answ=message.text
         if(answ == 'Да'):
             hide1[i] = word[i]
